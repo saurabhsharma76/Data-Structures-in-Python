@@ -1,1 +1,9 @@
-print("Hello, World")
+#" Write a code to reverse a string
+
+def reverse(S):
+    return S[::-1]
+
+str="Hello, Data Analyst"
+reversed_str=reverse(str)
+
+print(reversed_str)
