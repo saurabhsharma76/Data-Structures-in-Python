@@ -1,0 +1,9 @@
+# Write a code to convert a given string to uppercase or lowercase
+
+string="my name is saurabh sharma"
+
+x=string.upper()
+y=string.lower()
+
+print("Upper: ",x)
+print("Lower: ",y)
