@@ -1,0 +1,9 @@
+# Create a code to count the occurrences of each element in a list and return 
+# a dictionary with elements as  keys and their counts as values??
+
+list1=[1,1,1,1,2,2,2,2,2,3,3,3]
+list2=set(list1)
+
+x={i: list1.count(i) for i in list2}
+
+print("Dictionary: ",x)
