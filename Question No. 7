@@ -1,0 +1,8 @@
+#& Write a code to determine if a string has all unique characters
+
+string=input("Enter the Char. :  ")
+
+if len(set(string))==len(string):
+    print("All char. are unique")
+else:
+    print("All char. are not unique")
