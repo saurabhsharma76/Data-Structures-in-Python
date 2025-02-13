@@ -1,0 +1,9 @@
+#"" Write a code to remove all occurrences of a specific element from a list
+
+list1=[1,1,1,2,2,2,2,23,3,3,3,4,55]
+
+remove_item=23
+
+x=[x for x in list1 if x!=remove_item]
+
+print(x)
