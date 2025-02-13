@@ -1,0 +1,8 @@
+#	 Write a code to find all occurrences of a given substring within another string
+
+string = "hello data analyst, hello pw skills"
+substring = "hello"
+
+sentence = [i for i in range(len(string)) if string.startswith(substring, i)]
+
+print("Occurrences between substrings: ", sentence)
