@@ -1,12 +1,9 @@
 # Write a code to check if a given string is a palindrome or not
 
-def palindrome(s):
-    s=s.lower().replace(" ","")
-    return s==s[::-1]
+S="malayalam"
+string=S.lower().replace(" ","")
 
-str="Malayalam"
-
-if palindrome(str):
-    print("Yes, it is a palidrome")
+if string == string[::-1]:
+    print("The string is a palindrome.")
 else:
-    print("No, it is not a palidrome")
+    print("The string is not a palindrome.")
