@@ -1,16 +1,15 @@
 #$ Write a code to perform basic string compression using the counts of repeated characters
 
-string = "aaabbccccdaa"
-compressed = ""
-count = 1
+string="aaabbcccccdddde"
+compressed=""
+count=1
 
 for i in range(len(string)-1):
-    if string[i] == string[i + 1]:
-        count = count+ 1
+    if string[i]==string[i+1]:
+        count=count+1
     else:
-        compressed = compressed + string[i] + str(count)
-        count = 1
+        compressed=compressed+string[i]+str(count)
 
-compressed = compressed + string[-1] + str(count)
+compressed=compressed+string[i]+str(count)
 
-print(compressed if len(compressed) < len(string) else string)
+print(compressed)
