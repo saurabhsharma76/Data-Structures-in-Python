@@ -1,0 +1,7 @@
+'''Create a code that prompts the user to enter two sets of integers separated by commas. Then, print the
+intersection of these two sets. '''
+
+set1=set(map(int,input("set1: ").split(",")))
+set2=set(map(int,input("set2: ").split(",")))
+
+print(set(set1 & set2))
