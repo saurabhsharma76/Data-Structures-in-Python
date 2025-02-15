@@ -1,0 +1,11 @@
+'''Create a code to find the union of two lists without duplicates'''
+
+list1=[1,2,3,4,5]
+list2=[6,7,8,9,10]
+
+l1=set(list1)
+l2=set(list2)
+
+union=list(l1 or l2)
+
+print("Union: ",union)
