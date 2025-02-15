@@ -1,0 +1,8 @@
+'''Implement a code to find and remove duplicates from a list while preserving 
+the original order of elements'''
+
+list1=[1,2,2,3,4,4,5,3,6]
+
+list2=list(dict.fromkeys(list1))
+
+print(list2)
