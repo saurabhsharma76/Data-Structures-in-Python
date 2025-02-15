@@ -1,0 +1,9 @@
+'''Write a code to concatenate two tuples. The function should take two tuples as input and return a new
+tuple containing elements from both input tuples.'''
+
+tuple1=tuple(map(int,input("Tuple1: ").split(",")))
+tuple2=tuple(map(int,input("Tuple2: ").split(",")))
+
+concat=tuple1 + tuple2
+
+print(concat)
