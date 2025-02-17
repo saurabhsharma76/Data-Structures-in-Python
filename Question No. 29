@@ -1,0 +1,10 @@
+'''Write a code that takes a tuple and an element as input. The function should return the count of
+occurrences of the given element in the tuple'''
+
+tuple1=tuple(map(int,input("Tuple: ").split(",")))
+
+element=int(input("Element: "))
+
+occurrence=tuple1.count(element)
+
+print(f"Occurrences of {element} :",occurrence)
