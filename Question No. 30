@@ -1,0 +1,10 @@
+
+'''Develop a code that prompts the user to input two sets of strings.
+Then, print the symmetric difference of these two sets'''
+
+set1={"apple","banana","mango"}
+set2={"apple","grapes","berry"}
+
+symmetric_diff=set1^set2
+
+print("Symmetric Difference: ",symmetric_diff)
