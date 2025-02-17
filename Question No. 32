@@ -1,0 +1,12 @@
+'''Write a code that takes two dictionaries as input and merges them into a single dictionary. If there are
+common keys, the values should be added together'''
+
+dict1=eval(input("Dict1: "))
+dict2=eval(input("Dict2: "))
+
+dict1.update(dict2)
+
+for key in dict1:
+    dict1[key]=dict1.get(key,0)+dict2.get(key,0)
+
+print("Dictionary: ",dict1)
