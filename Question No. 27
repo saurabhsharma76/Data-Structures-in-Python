@@ -1,0 +1,10 @@
+'''Develop a code that takes a tuple of integers as input. The function should return the maximum and
+minimum values from the tuple using tuple unpacking'''
+
+tuple1=tuple(map(int,input("Enter Integers: ").split(",")))
+
+maximum=max(tuple1)
+minimum=min(tuple1)
+
+print("Maximum: ",maximum)
+print("Minimum: ",minimum)
