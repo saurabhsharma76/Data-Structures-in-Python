@@ -1,0 +1,11 @@
+'''Create a code that takes a tuple and two integers as input. The function should return a new tuple
+containing elements from the original tuple within the specified range of indices'''
+
+tuple1=(45,785,412,3,56,854,2563)
+
+input1=int(input("Input1: "))
+input2=int(input("Input2: "))
+
+new_tuple=tuple1[input1:input2]
+
+print("New Tuple: ", new_tuple)
