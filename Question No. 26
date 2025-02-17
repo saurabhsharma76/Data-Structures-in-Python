@@ -1,0 +1,9 @@
+'''Write a code that prompts the user to input two sets of characters.
+Then, print the union of these two sets&'''
+
+set1=set(input("Members of family1: ").split(","))
+set2=set(input("Members of family2: ").split(","))
+
+family= set1 | set2
+
+print("Family: ",family)
