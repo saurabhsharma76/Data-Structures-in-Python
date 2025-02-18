@@ -1,0 +1,18 @@
+'''Write a code that takes a dictionary as input and returns a sorted version of it based on
+the values. You can choose whether to sort in ascending or descending order'''
+
+dict1=eval(input("Dictionary: "))
+
+order=input("Order(ase/desc): ").strip().lower()
+
+if order=='ase':
+    sorted_items=sorted(dict1.items(),key=lambda item:item[1])
+elif order=='desc':
+    sorted_items=sorted(dict1.items(),key=lambda item:item[1],reverse=True)
+else:
+    print("Invalid")
+    sorted_items = dict1
+
+sorted_dict=dict(sorted_items)
+
+print("Sorted Dictionary: ",sorted_dict)
